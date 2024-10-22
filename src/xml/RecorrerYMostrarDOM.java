@@ -15,7 +15,8 @@ public class RecorrerYMostrarDOM {
 	}
 	
 	public Document crearArbol(File fichero) {
-		Document doc=null;
+		Document doc;
+		doc=null;
 		try {
 			DocumentBuilderFactory dbf= DocumentBuilderFactory.newInstance();
 			dbf.setIgnoringComments(true);
